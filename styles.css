@@ -161,6 +161,10 @@ ul {
     
 }
 
+.hamburger {
+    display: none;
+}
+
 
 .nav__link {
     margin-left: 16px;
@@ -900,6 +904,9 @@ ul {
     .nav__links {
         display: none;
     }
+    .hamburger {
+        display: block right;
+    }
 }
 
 @media(max-width: 728px) {
@@ -909,9 +916,12 @@ ul {
     }
     h1, h2 {
         text-align: center;
-    }  
+    } 
     .nav__links {
         display: none;
+    } 
+    .hamburger {
+        display: block right;
     }
 }
  
@@ -925,5 +935,8 @@ ul {
     }  
     .nav__links {
         display: none;
+    }
+    .hamburger {
+        display: block right;
     }
 }
