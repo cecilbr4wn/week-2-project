@@ -905,7 +905,9 @@ ul {
         display: none;
     }
     .hamburger {
-        display: block right;
+        display: block;
+        cursor: pointer;
+        
     }
 }
 
@@ -920,9 +922,7 @@ ul {
     .nav__links {
         display: none;
     } 
-    .hamburger {
-        display: block right;
-    }
+   
 }
  
 @media(max-width: 576px) {
@@ -935,8 +935,5 @@ ul {
     }  
     .nav__links {
         display: none;
-    }
-    .hamburger {
-        display: block right;
-    }
+    }    
 }
