@@ -871,12 +871,15 @@ ul {
 
 .footer__social--link {
     color: rgb(26 32 44);
+    width: 32px;
+    height: 32px;
     background-color: rgb(247 250 252);
     border-radius: 9999px;
     border-style: solid;
-    padding: 2px;
+    padding-left: 4px;
     border-color: rgb(247 250 252);
-    vertical-align: middle;         
+    vertical-align: middle;  
+    display: inline-block;       
 }
 
 
@@ -894,7 +897,7 @@ ul {
 }
 
 @media(max-width: 992px) {
-    .header__container, .quality__primary, .steps__primary, .values__primary, #testimonials {
+    .header__container, .quality__primary, .steps__primary, .values__primary, #testimonials, .footer__bottom--wrapper {
         flex-direction: column;
         align-items: center;
     }
